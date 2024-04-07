@@ -1,0 +1,3 @@
+# Symbolic Node Package Manager (SNPM)
+
+The Symbolic Node Package Manager (SNPM) is a package manager designed so you only need to install a package once (per version), then you can use it in any project and affectively install it instantly through the use of a symbolic link. Most of SNPM's functionality except for the symbolic linking is based on the Powerful Node Package Manager ([pnpm](https://github.com/pnpm/pnpm)) so we can provide you with the most efficient developer experience.

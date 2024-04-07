@@ -1,0 +1,33 @@
+{
+    "name": "snpm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/lib/index.js",
+    "scripts": {
+        "build": "tsc && tsc-alias",
+        "start": "ts-node lib/index.ts",
+        "hi": "echo 'Hello World'"
+    },
+    "keywords": [
+        "snpm",
+        "Package Manager",
+        "Node.js",
+        "CLI"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bin": {
+        "snpm": "dist/lib/index.js"
+    },
+    "dependencies": {
+        "@pnpm/run-npm": "^6.1.1",
+        "chalk": "4.1.0",
+        "cross-spawn": "^7.0.3"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.5",
+        "ts-node": "^10.9.2",
+        "tsc-alias": "^1.8.8",
+        "typescript": "^5.4.4"
+    }
+}
