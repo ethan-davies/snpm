@@ -20,7 +20,7 @@
         "snpm": "dist/lib/index.js"
     },
     "dependencies": {
-        "@pnpm/run-npm": "^6.1.1",
+        "@pnpm/run-npm": "^7.0.0",
         "chalk": "4.1.0",
         "cross-spawn": "^7.0.3"
     },
